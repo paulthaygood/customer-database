@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body{
+  width:100%;
+}
+
+h1{
+  text-align:center;
+}
+
+.customers{
+  padding-left:9%;
+  padding-right:9%;
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+}
+
+.person{
+  width:22%;
+  margin:1%;
+}
+
+img{
+  display:block;
+  min-width:50%;
+  padding-bottom:10%;
+}
+
+.name{
+  /*border-bottom: 1px solid green;
+  border-bottom-width: 2px;*/
+  font-weight: bolder;
+  padding-bottom:1%;
+  text-align:center;
+  text-decoration:none;
+  /*text-decoration-color:green;
+  text-decoration-style: solid;*/
+  text-transform: uppercase;
+}
+
+.name:after{
+  content: "";
+  border-bottom: 1px solid green;
+  border-bottom-width: 2px;
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+.email{
+  color:darkgray;
+  font-size:.7rem;
+  padding-bottom:6%;
+  padding-top:6%;
+  text-align:center;
+  text-transform:uppercase;
+}
+
+.location{
+
+  font-weight: lighter;
+  padding-bottom:3%;
+  text-align:center;
+}
+
+.phone{
+
+  font-weight:lighter;
+  text-align:center;
+}
